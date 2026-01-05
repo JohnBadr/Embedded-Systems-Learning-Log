@@ -20,7 +20,7 @@ Each LED has its own resistor to limit current and protect the ESP32 pins.
 Multiple LEDs can safely share a single GND pin, but each output pin must remain separate.
 
 ## Software
-See  [main.cpp](https://github.com/JohnBadr/Embedded-Systems-Learning-Log/blob/main/Traffic%20Light/main.cpp) for the full code.
+See  [main.cpp](https://github.com/JohnBadr/Embedded-Systems-Learning-Log/blob/main/P1%20-%20Traffic%20Light/main.cpp) for the full code.
 
 ## Learning Outcomes
 This project helped me develop practical embedded systems skills:  
