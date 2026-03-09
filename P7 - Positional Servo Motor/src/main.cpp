@@ -1,18 +1,21 @@
 #include "main.h"
 
-// put function declarations here:
-int myFunction(int, int);
+Servo myServo;
+
+int pos = 0;
 
 void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+  myServo.attach(18);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
-}
+  for(pos=0; pos <= 180; pos++){
+    myServo.write(pos);
+    delay(15);
+  }
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
+  for(pos=180; pos >= 0; pos--){
+    myServo.write(pos);
+    delay(15);
+  }
 }
