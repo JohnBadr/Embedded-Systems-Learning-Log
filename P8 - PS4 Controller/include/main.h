@@ -1,9 +1,6 @@
 #pragma once
 #include <Arduino.h>
-#include <Servo.h>
-
-extern Servo myServo;
-extern int pos;
+#include <PS4Controller.h>
 
 void setup();
 void loop();

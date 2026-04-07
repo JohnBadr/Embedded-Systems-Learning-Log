@@ -19,4 +19,3 @@ In this repo, I am documenting:
 3. **Problem Solving:** Tracking how I debugged hardware/software conflicts.
 
 ---
-*This log is part of my transition into professional Embedded Systems Engineering.*
