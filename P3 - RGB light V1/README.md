@@ -1,4 +1,4 @@
-# RGB LED Color Cycle Project
+# P3 - RGB LED Color Cycle Project
 
 ## Overview
 This project controls a common cathode RGB LED using an ESP32 to cycle through primary colors (Red, Green, Blue) at fixed intervals. It uses Pulse Width Modulation (PWM) via `analogWrite()` to output specific color values.
